@@ -11,7 +11,7 @@ func ReverseString(input string) (output string) {
 	}
 
 	for _, j := range result {
-		output = output + " " + j
+		output = output + j
 	}
 	return output
 }
